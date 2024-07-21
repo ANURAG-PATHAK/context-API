@@ -4,7 +4,7 @@ import {
     CardHeader,
     CardTitle
 } from "@/components/ui/card";
-import UserContext from "@/context/UserContext";
+import UserContext from "@/contexts/UserContext";
 import { useContext } from "react";
 export default function Profile() {
     const { user } = useContext(UserContext)

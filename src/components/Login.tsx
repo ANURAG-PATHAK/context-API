@@ -1,14 +1,14 @@
 import React, { useState, useContext } from "react";
-import UserContext from "../context/UserContext";
+import UserContext from "../contexts/UserContext";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { 
-    Card, 
-    CardContent, 
-    CardFooter, 
-    CardHeader, 
-    CardTitle 
+import {
+    Card,
+    CardContent,
+    CardFooter,
+    CardHeader,
+    CardTitle
 } from "@/components/ui/card";
 
 function Login() {
